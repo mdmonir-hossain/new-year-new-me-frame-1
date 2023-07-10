@@ -1,0 +1,128 @@
+/* common style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header section style */
+.header-container {
+  background-image: url("../images/banner/banner1.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.header-text {
+  font-size: 65px;
+  text-align: right;
+}
+.header-text-info {
+  width: 525px;
+  padding: 150px;
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #f15b22;
+  padding: 15px;
+  margin-left: 380px;
+  margin-top: 32px;
+}
+.header-description {
+  text-align: right;
+}
+/* main style */
+.my-failure {
+  margin-top: 100px;
+}
+.tick-mark {
+  color: #16d887;
+}
+.my-failure-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul > li {
+  list-style: none;
+}
+.my-failure-head-text {
+  font-size: 40px;
+}
+.my-failure-description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.my-plan {
+  text-align: center;
+  margin-top: 50px;
+}
+.my-plan-boxes {
+  margin-top: 50px;
+  width: 200px;
+  height: 150px;
+}
+.my-plan-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+.positive-mindset-coontainer {
+  background-image: url("../images/watch.png"), url("../images/gradient2.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 250px;
+  margin: auto;
+  padding: 200px;
+}
+
+.positive-mindset-head-text {
+  font-size: 40px;
+  color: white;
+}
+.btn-positive {
+  color: #f15b22;
+  background-color: #fff;
+  padding: 15px;
+  border: none;
+  margin-top: 10px;
+}
+/* footer style */
+.footer-containter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #151414;
+  width: 100%;
+  height: 300px;
+  color: #fff;
+  padding: 20px;
+}
+.footer-boxes {
+  width: 400px;
+  height: 200px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-descriptin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type="email"] {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
